@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.menu-bar{
+	text-align: center;
+	height: 70px;
+	background: #2288A9 ;
+	line-height: 70px;
+}
+.menu-bar ul li{
+	display: inline-block;
+
+}
+.menu-bar ul li a{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin: 0px 12px;
+    transition: 1s;
+}
+.menu-bar ul li a:hover{
+	color: white;
+	font-weight: 22px;
+	transition: 1s;
+}
+
+/*banner section css here*/
+
+.banner{
+	background-image: url(../img/banner3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner h1{
+	font-size: 32px;
+	text-align: center;
+	color: black;
+	padding-top: 90px;
+}
+
+.social-media{
+    text-align: center;
+    margin-top: 10px;
+}
+.social-media ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-media ul li a i{
+	font-size: 22px;
+	height: 60px;
+	width: 60px;
+	background: #0A635C  ;
+	border-radius: 100%;
+	line-height: 60px;
+	color: white;
+	margin: 0px 10px;
+	transition: 0.5s;
+}
+.social-media ul li a i:hover{
+	color: black;
+	transition: 0.5s;
+	font-size: 24px;
+	transform: scale(1.2);
+}
+
+/*position css property example*/
+/*.box{
+	
+	height: 300px;
+	width: 500px;
+	background-color: green;
+	margin: 0 auto;
+	position: relative;
+}
+.circle{
+	position: absolute;
+	height: 120px;
+	width: 120px;
+	background-color: red;
+	border-radius: 100%;
+	top: 90;
+}*/
+
